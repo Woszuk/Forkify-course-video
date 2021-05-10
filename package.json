@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Adrian Hejnar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "core-js": "^3.11.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "plugins": [
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
